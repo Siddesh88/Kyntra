@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kyntra - Verification Result</title>
+</head>
+<body>
+    <h2>Verification Result</h2>
+    <p><strong>Name:</strong> {{ name }}</p>
+    <p><strong>DOB:</strong> {{ dob }}</p>
+    <p><strong>ID Type:</strong> {{ id_type }}</p>
+    <p><strong>Face Match:</strong> {{ "✅ Match" if face_match else "❌ No Match" }}</p>
+    <a href="/static/KYC_Report.pdf" download>Download PDF Report</a>
+</body>
+</html>
