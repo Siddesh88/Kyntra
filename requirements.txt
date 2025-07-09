@@ -7,4 +7,4 @@ deepface==0.0.79
 pytesseract
 fpdf
 jinja2
-tensorflow==2.10.0
+tensorflow==2.9.1
