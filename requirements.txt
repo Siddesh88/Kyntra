@@ -4,7 +4,7 @@ python-multipart
 opencv-python
 Pillow
 deepface==0.0.79
-tensorflow==2.10.0
 pytesseract
 fpdf
 jinja2
+tensorflow==2.10.0
